@@ -6,3 +6,6 @@ app.listen(
 
 );
 
+app.get('/tshirt', (req, res) => {
+  res.status(200).send({"size":"large"})
+})
